@@ -117,7 +117,7 @@ public class SequenceRunner {
         int secondPartZeroesNumber;
         for (int i = 1; i < maxZerosNumberInRaw; i++) {
             firstPartZeroesNumber = i;
-            secondPartZeroesNumber = firstPartZeroesNumber + 1;  //to exclude the cases where number of zeros in the first part and the second are the same
+            secondPartZeroesNumber = firstPartZeroesNumber + 1;  //to exclude cases where number of zeros in the first part and the second are the same
             StringBuilder regExSB = new StringBuilder();
             regExSB.append(STARTS_WITH_1_0_);
             regExSB.append(secondPartZeroesNumber);              //here's the first part
